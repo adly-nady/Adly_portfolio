@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.admySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.adslideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.adprev, .adnext {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -22px; */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.adnext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.adprev:hover, .adnext:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.adtext {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.adnumbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.addot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.adactive, .addot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.adfade {
+  animation-name: adfade;
+  animation-duration: 1.5s;
+}
+
+@keyframes adfade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .adprev, .adnext,.adtext {font-size: 11px}
+}
+.conutersses{
+  width: 100%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.labse{
+      text-shadow: 0px 0.5px 5px #055db5c4;
+}
+.pth{color: #0f33ff;
+  transition: 0.5s; }
+.btn_swaps{
+  border: 1px solid white;
+  background: none;
+  width: 70px;
+  border-radius: 5px;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 0.5s;
+}
+.btn_swaps:hover{
+  background-color: #0f33ff;
+  border: 1px solid #0f33ff;
+  box-shadow: 0px 0px 5px 0.5px rgba(255, 255, 255, 0.822);
+}
+.btn_swaps:hover .pth{
+  color: white;
+}
+.btn_swaps2{
+  position: absolute;
+  left: 40%;
+  top: 65%;
+  border: 1px solid white;
+  background: none;
+  width: 70px;
+  border-radius: 5px;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 0.5s;
+}
+.btn_swaps2:hover{
+  background-color: #0f33ff;
+  border: 1px solid #0f33ff;
+  box-shadow: 0px 0px 5px 0.5px rgba(255, 255, 255, 0.822);
+}
+.btn_swaps2:hover .pth{
+  color: white;
+}
+.covasos {
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    left: 50px;
+    top: 0px;
+    backdrop-filter: blur(8px);
+    display: block;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <p></p>
+          </a>
+          <button class="header--cta cta">Hire me</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span style="font-size: 14px;">Home</span></li>
+            <li><span style="font-size: 14px;">Works web & Desktop</span></li>
+            <li><span style="font-size: 14px;">work AI</span></li>
+            <li><span style="font-size: 14px;">About</span></li>
+            <li><span style="font-size: 14px;">experience</span></li>
+            <li><span style="font-size: 14px;">Education</span></li>
+            <li><span style="font-size: 14px;">Skills</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active ss1">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Adly Nady</h1>
+                <h3 style="margin-left: 30px;">Software Enginner</h3>
+                <button class="cta">Hire Me
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <!-- effe1.webp -->
+                <img src="assets/img/effe1.webp" style="position: absolute;top: -15px; margin-top: -10px;" alt="Welcome">
+                <img src="C:\Users\adly2\OneDrive\Desktop\New folder (4)\pixelcut-export.png" style="width: 350px;position: absolute;right: 0px;" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>Web Development</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>computer Vision & Machine Learning & Deep Learning</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Desktop Development</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="l-section section ss2">
+            <div class="work">
+              <h2>Selected work Web & Desktop</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;" onclick="open_pg('simple_ERP.html')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p1.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">ERP System for mill</p>
+                      <p class="slider--item-description" style="max-width: 500px;width: 500px;">The mills management system is distinguished by the fact that it contains all the sections that any mill needs.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;" onclick="open_pg('./assets/video/x_ray.mp4')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p2.jpeg" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">X-ray analysis application</p>
+                      <p class="slider--item-description" style="max-width: 500px;width: 500px;">Application of radiology analysis to detect pneumonia and also gives you the percentage of your probability of contracting the disease.</p>
+                    </a>
+                  </li>
+
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;" onclick="open_pg('ticket.html')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p2_1.png" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Task sysem</p>
+                      <p class="slider--item-description" style="max-width: 500px;width: 500px;">A system for organizing tasks and measuring performance.</p>
+                    </a>
+                  </li>
+
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;" onclick="open_pg('whatsapp.html')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p3_1.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Chat App</p>
+                      <p class="slider--item-description" style="max-width: 500px;width: 500px;">An application that allows sending and receiving messages between company employees in a closed manner.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;" onclick="open_pg('HR.html')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p5_1.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Attendance System</p>
+                      <p class="slider--item-description" style="max-width: 500px;width: 500px;">A system that organizes and shortens the work of the Human Resources Department and can link with the fingerprint attendance device.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <button class="btn_swaps2" style="height: 40px;"  onclick="open_pg('./assets/video/v_windows.mp4')">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 .5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10A.5.5 0 0 1 4 .5m-4 2A.5.5 0 0 1 .5 2h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 4h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 6h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2A.5.5 0 0 1 .5 8h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m-4 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m4 0a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                        </button>
+                        <img src="assets/img/projects/p1.jpeg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">virtual windows</p>
+                      <p class="slider--item-description" style="max-width: 600px;width: 600px;">A system that allows you to upload your files so that you can access them at any time, with the ability to modify or delete them, and provides you with some of the tools that you may need, such as a code editor.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="l-section section ss3">
+            <div class="about">
+              <h2 style="font-family: Verdana, sans-serif;text-align: center;margin: 0 0 20px 0;font-size: 30px;text-align: center;">Selected work Computer Vision</h2>
+              <div class="about--banner">
+
+                <div class="conutersses">
+                  <div class="adslideshow-container">
+
+                  <div class="admySlides adfade">
+                    <div class="adnumbertext">1 / 5</div>
+                    <div class="conva1" style="height: 400px;">
+                    <img src="assets/img/projects/AI/p1.jpeg" style="width:100%;position: unset;">
+                    </div>
+                    <div class="adtext"> <button class="btn_swaps bts1" onclick="play_video(1)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path class="pth" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                      </svg>
+                    </button> </div>
+                  </div>
+                  <div class="admySlides adfade">
+                    <div class="adnumbertext">2 / 5</div>
+                    <div class="conva2" style="height: 400px;">
+                    <img src="assets/img/projects/AI/p2.jpeg" style="width:100%;position: unset;">
+                    </div>
+                    <div class="adtext"> <button class="btn_swaps bts2" onclick="play_video(2)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path class="pth" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                      </svg>
+                    </button> </div>
+                  </div>
+                  <div class="admySlides adfade">
+                    <div class="adnumbertext">3 / 5</div>
+                    <div class="conva3" style="height: 400px;">
+                    <img src="assets/img/projects/AI/p3.jpeg" style="width:100%;position: unset;">
+                    </div>
+                    <div class="adtext"> <button class="btn_swaps bts3" onclick="play_video(3)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path class="pth" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                      </svg>
+                    </button> </div>
+                  </div>
+                  <div class="admySlides adfade">
+                    <div class="adnumbertext">4 / 5</div>
+                    <div class="conva4" style="height: 400px;">
+                    <img src="assets/img/projects/AI/p4.jpeg" style="width:100%;position: unset;">
+                    </div>
+                    <div class="adtext"> <button class="btn_swaps bts4" onclick="play_video(4)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path class="pth" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                      </svg>
+                    </button> </div>
+                  </div>
+                  <div class="admySlides adfade">
+                    <div class="adnumbertext">5 / 5</div>
+                    <div class="conva5" style="height: 400px;">
+                    <img src="assets/img/projects/AI/p5.jpeg" style="width:100%;position: unset;">
+                    </div>
+                    <div class="adtext"> <button class="btn_swaps bts5" onclick="play_video(5)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path class="pth" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                      </svg>
+                    </button> </div>
+                  </div>
+
+                  <a class="adprev" onclick="plusSlides(-1)">❮</a>
+                  <a class="adnext" onclick="plusSlides(1)">❯</a>
+
+                  </div>
+
+                  <br>
+
+                  <div style="text-align:center">
+                    <span class="addot" onclick="currentSlide(1)"></span> 
+                    <span class="addot" onclick="currentSlide(2)"></span> 
+                    <span class="addot" onclick="currentSlide(3)"></span> 
+                    <span class="addot" onclick="currentSlide(4)"></span> 
+                    <span class="addot" onclick="currentSlide(5)"></span> 
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          
+          <li class="l-section section ss4">
+            <div class="about">
+              <div class="about--banner">
+                <br>
+                <h3>
+                  <label class="labse">Name:</label> Adly Nady Adly
+                </h3>
+                <h3>
+                  <label class="labse">Age:</label> 22
+                </h3>
+                <h3>
+                  <label class="labse">Faculty:</label> Computers and Information
+                </h3>
+                <h3>
+                  <label class="labse">Major:</label> Management Information System (MIS)
+                </h3>
+                <h3>
+                  <label class="labse">Phone & Whatsapp:</label> 01278933872
+                </h3>
+                <h3>
+                  <label class="labse">Email:</label> AdlyNadyAdly1@gmail.com
+                </h3>
+                <h3>
+                  <label class="labse">Address:</label> Egypt, Sharkia, 10th of Ramadan
+                </h3>
+                <h3>
+                  <a href="https://www.linkedin.com/in/adly-nady-10741b236/" style="width: 50px;height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width: 30px;height: 30px;fill: #0a66c2;color: aliceblue;background-color: white;border-radius: 5px;" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path style="box-shadow: 0px 0px 5px 0.5px #0a66c2;" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                  </a>
+                  <a href="https://www.facebook.com/adly.nady.37/" style="width: 50px;height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width: 30px;height: 30px;fill: #0a66c2;color: aliceblue;background-color: white;border-radius: 25px;" width="50" height="50" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg>
+                  </a>
+                </h3>
+
+                <a href="./assets/Adly Nady.pdf" style="margin-top: 30px;" > See CV
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                      <path d="M870,1167c-34-17-55-57-56-90c3-15,81-100,195-211l187-185l-565-1c-531,0-571-3-590-13c-55-28-65-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <!--  -->
+                <img src="assets/img/me.png" style="width: 450px;position: absolute;right: -5px;bottom: 10px;" alt="About Us">
+                <img src="assets/img/effect1.png" style="width: 400px;position: absolute;right: -5px;bottom: 10px;" alt="About Us">
+              </div>
+            </div>
+          </li>
+
+
+
+
+          <li class="l-section section ss5">
+            <div class="contact">
+              
+              <div class="covasos"></div>
+              <div class="contact--lockup">
+              <h2 style="position: absolute;left: 35%;top: 45px;">My Experience At Work</h2>
+                <!-- work1 -->
+                <div class="exp1">
+                 <div class="head1">
+                  <div class="pa1" style="color: #bdbdbd;">
+                    IEEE Student Branch
+                  </div>
+                  <div class="pa2" style="color: #bdbdbd;">
+                    el-shorouk Academy
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      AI-Instructor
+                    </div>
+                    <div class="pa2">
+                      07/2024 - 05/2024
+                    </div>
+                  </div>
+                  <div class="body_1" style="color: #bdbdbd;">
+                      I was teaching students about the field of AI through an in-depth explanation of deep learning, machine learning, and computer vision through a
+                      workshop extended over a period of three months
+                      <ul>
+                        <li>Machine Learning(Supervised learning & unsupervised learning)</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision(Detection , Tracking, semantic segmentation)</li>
+                      </ul>
+                  </div>
+                </div>
+
+                <!-- work2 -->
+                <div class="exp1" style="margin-left: 520px;">
+                 <div class="head1">
+                  <div class="pa1" style="color: #bdbdbd;">
+                    SYNC INTERN'S 
+                  </div>
+                  <div class="pa2" style="color: #bdbdbd;">
+                    Online
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      internship as Machine Learning engineer
+                    </div>
+                    <div class="pa2">
+                      04/2023 - 05/2023
+                    </div>
+                  </div>
+                  <div class="body_1" style="color: #bdbdbd;">
+                      projects of internship:
+                      <ul>
+                        <li>chat Bot</li>
+                        <li>Real-time Face Mask Detection</li>
+                        <li>Boston house price predictions</li>
+                        <li>Sign Language Classification</li>
+                      </ul>
+                  </div>
+                </div>
+
+                <!-- work3 -->
+                <div class="exp1" style="margin-top: 220px;">
+                 <div class="head1">
+                  <div class="pa1" style="color: #bdbdbd;">
+                    CodSoft
+                  </div>
+                  <div class="pa2" style="color: #bdbdbd;">
+                    Online
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      internship as Machine Learning engineer
+                    </div>
+                    <div class="pa2">
+                      11/2023 - 12/2023
+                    </div>
+                  </div>
+                  <div class="body_1" style="color: #bdbdbd;">
+                      projects of internship:
+                      <ul>
+                        <li>SPAM SMS DETECTION (<a class="cl_links" href="https://rb.gy/s3dnyb">Go Post</a>)</li>
+                        <li>Customer Churn Prediction (<a class="cl_links" href="https://rb.gy/142nxu">Go Post</a>)</li>
+                        <li>Credit Card Fraud Detection (<a class="cl_links" href="https://rb.gy/8ur585">Go Post</a>)</li>
+                        <li>Movie Genre Classification (<a class="cl_links" href="https://rb.gy/eg7zbz">Go Post</a>)</li>
+                      </ul>
+                  </div>
+                </div>
+
+                <!-- work4 -->
+                <div class="exp1" style="margin-top: 220px;margin-left: 520px;">
+                 <div class="head1">
+                  <div class="pa1" style="color: #bdbdbd;">
+                    Freelancer
+                  </div>
+                  <div class="pa2" style="color: #bdbdbd;">
+                    Online
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      Backend Developer
+                    </div>
+                    <div class="pa2">
+                      10/2022 - still
+                    </div>
+                  </div>
+                  <div class="body_1" style="color: #bdbdbd;">
+                    I have built and developed many websites and other applications such as ERP and CRM, and created websites that operate with artificial intelligence that predict future sales or losses, not to mention building an application that allows the design and implementation of reports easily and smoothly.                  
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li class="l-section section ss6">
+            <div class="hire">
+              
+                <div class="exp1 mm1" style="width:900px;margin-top: 50px;height: 120px;left: -2000px;">
+                 <div class="head1">
+                  <div class="pa1">
+                    El Shorouk Academy
+                  </div>
+                  <div class="pa2">
+                    10/2022 - 10/2025
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      Faculty: Faculty of Computers and Information
+                    </div>
+                  </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      Major: Management Information System
+                    </div>
+                    <div class="pa2">
+                      GPA: Good
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="exp1 mm2" style="width:900px;margin-top: 230px;height: 100px;left: 2000px;">
+                 <div class="head1">
+                  <div class="pa1" style="color: #bdbdbd;">
+                    National Telecommunication Institute (NTI)
+                  </div>
+                  <div class="pa2" style="color: #bdbdbd;">
+                      09/2023 - 10/2023
+                  </div>
+                 </div>
+                  <div class="head1">
+                    <div class="pa1">
+                      Scholarship in Artificial Intelligence and Internet of Things (AI & IOT)
+                    </div>
+                    <div class="pa2">
+                      GPA: Excellent
+                    </div>
+                  </div>
+                  <div class="body_1" style="color: #bdbdbd;">
+                    course content : Machine Learning , Deep Learning , computer Vision , intro of IOT
+                  </div>
+                </div>
+            </div>
+          </li>
+
+
+
+
+          
+
+          <li class="l-section section ss7">
+            <div class="hire sss7">
+              <div class="blury"></div>
+              <h3>My Technical Skills</h3>
+              <div class="skll">
+                <div class="bars">
+                  <h4 style="margin: 2px;">Basic Skills:-</h4>
+                  <div class="sk_cov">
+
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/C++.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        C++
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Problem_Solving.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Problem solving
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/c--4.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        C#
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/OOP.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        OOP
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/sql.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        SQL
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Git.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Git
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="bars">
+                  <h4 style="margin: 2px;">Advanced Skills:-</h4>
+                  <div class="sk_cov">
+
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/algo.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Algorithms
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Data_struc.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Data structure
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/solid.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        SOLID Principle
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/machine-learning.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Machine Learnnig
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Deep_leaning.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Deep Learnnig
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/im_pro.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Image Processing
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/computer_vision.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Computer Vision
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/wind.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Windows
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Ubuntu.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Linux ubuntu
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="bars">
+                  <h4 style="margin: 2px;">Specifically Web:-</h4>
+                  <div class="sk_cov">
+
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/html.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        HTML
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/css.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        CSS
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/javascript.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        JavaScript
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/bootstrap.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        bootstrap
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/jquery-4.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        jquery
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/vue.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Vue.js
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/php.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        php
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/laravel.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Laravel
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/javascript.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Axios
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/mysql.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        MySQL
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/api.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        API
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/github.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Github
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/postman.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Postman
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/javascript.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Ajax
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="bars">
+                  <h4 style="margin: 2px;">Specifically AI:-</h4>
+                  <div class="sk_cov">
+
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/python.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Python
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/numpy.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Numpy
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Pandas.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        pandas
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/scikit-learn.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        scikit-learn
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/tensorflow.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Tensorflow
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Keras.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        Keras
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/OpenCV.svg" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        OpenCV
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/Mediapipe.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        mediapipe
+                      </div>
+                    </div>
+                    <div class="sk_b">
+                      <div class="ico">
+                        <img src="assets/logo/cvzone.png" alt="" srcset="">
+                      </div>
+                      <div class="tx">
+                        CVZone
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Works web & Desktop</li>
+    <li>work AI</li>
+    <li>About</li>
+    <li>experience</li>
+    <li>Education</li>
+    <li>Skills</li>
+    
+  </ul>
+  <div class="convser">
+    <div class="slaiders" id="slaiders">
+        <iframe class="i_frames" src="" style="width: 100%;height: 500px;margin-top: 20px;"></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script>
+
+  // function downloadFile() {
+  //     const link = document.createElement('a');
+  //     link.href = '';
+  //     link.download = 'Nady.pdf';
+  //     document.body.appendChild(link);
+  //     link.click();
+  //     document.body.removeChild(link);
+  // }
+  // document.getElementById("slaiders").innerHTML = "./HR.html";
+  $(".ss6").mouseenter(function () { 
+    $(".mm1").css('left','0px')
+    $(".mm2").css('left','0px')
+  });
+  $('.convser').on('click',function(){
+    $(this).fadeOut();
+  })
+  function open_pg(data)
+  {
+    $('.i_frames').attr('src',data);
+    $('.convser').fadeIn();
+    $('.convser').css('display','grid');
+  }
+  function ad_resets()
+  {  $('.conva1').html('<img src="assets/img/projects/AI/p1.jpeg" style="width:100%;position: unset;">')
+  $('.conva2').html('<img src="assets/img/projects/AI/p2.jpeg" style="width:100%;position: unset;">')
+  $('.conva3').html('<img src="assets/img/projects/AI/p3.jpeg" style="width:100%;position: unset;">')
+  $('.conva4').html('<img src="assets/img/projects/AI/p4.jpeg" style="width:100%;position: unset;">')
+  $('.conva5').html('<img src="assets/img/projects/AI/p5.jpeg" style="width:100%;position: unset;">')
+  $('.bts1').show()
+  $('.bts2').show()
+  $('.bts3').show()
+  $('.bts4').show()
+  $('.bts5').show()}
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  ad_resets()
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+  ad_resets()
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("admySlides");
+  let dots = document.getElementsByClassName("addot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+function play_video(id)
+{
+  switch (id) {
+    case 1:
+        $('.conva1').html('<video style="width:100%;height:390px" src="assets/video/X_O.mp4" autoplay controls></video>')
+        $('.bts1').hide()
+      break;
+    case 2:
+        $('.conva2').html('<video style="width:100%;height:390px" src="assets/video/write.mp4" autoplay controls></video>')
+        $('.bts2').hide()
+      break;
+    case 3:
+        $('.conva3').html('<video style="width:100%;height:390px" src="assets/video/sign language.mp4" autoplay controls></video>')
+        $('.bts3').hide()
+      break;
+    case 4:
+        $('.conva4').html('<video style="width:100%;height:390px" src="assets/video/mask_detect.mp4" autoplay controls></video>')
+        $('.bts4').hide()
+      break;
+    case 5:
+        $('.conva5').html('<video style="width:100%;height:390px" src="assets/video/cv_unity.mp4" autoplay controls></video>')
+        $('.bts5').hide()
+      break;
+  
+    default:
+      ad_resets()
+      break;
+  }
+}
+</script>
+</body>
+</html>
+<!-- <ul class="modal--options">
+                    <li><a href="#0">Bēhance</a></li>
+                    <li><a href="#0">dribbble</a></li>
+                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
+                  </ul> -->
